@@ -1,4 +1,4 @@
-AI Safety Incident Dashboard
+#AI Safety Incident Dashboard
 AI Safety Incident Dashboard is a frontend web application that allows users to view, filter, sort, and report AI safety incidents. It was built using React, TypeScript, and Tailwind CSS to demonstrate core frontend skills such as interactive UI development, state management, and form handling — all in a clean, responsive design without backend integration.
 
 🔧 Tech Stack
