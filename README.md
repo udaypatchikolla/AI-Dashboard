@@ -31,12 +31,12 @@
 
 ---
 
-## 📦 Installation & Running the Project Locally
+##  Installation & Running the Project Locally
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Vislavathsunil/AI-Safety-Incident-Dashboard.git
+git clone https://github.com/udaypatchikolla/AI-Dashboard.git
 cd AI-Safety-Incident-Dashboard
 ```
 ### 2. Install Dependencies
