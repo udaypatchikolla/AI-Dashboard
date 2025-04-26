@@ -21,13 +21,13 @@ Styling: Tailwind CSS
 ✅ Clean and readable component-based structure
 
 🚀 Getting Started
-1. Clone the Repository
+1. Clone the Repository :
 git clone http
 cd AI-Safety-Incident-Dashboard
 
-3. Install Dependencies
+3. Install Dependencies :
    npm install
-4.  Run the Development Server
+4.  Run the Development Server : 
    npm run dev
 5. Open In your browser
  http://localhost:5173
