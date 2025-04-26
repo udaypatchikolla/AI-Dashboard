@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 font-sans text-neutral-800 dark:bg-neutral-900 dark:text-white;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-500 text-white hover:bg-primary-600 focus:ring-primary-500 dark:bg-primary-600 dark:hover:bg-primary-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-neutral-800 border border-neutral-300 hover:bg-neutral-50 focus:ring-primary-500;
+  }
+
+  .btn-dark {
+    @apply bg-neutral-600 text-white border border-neutral-500 hover:bg-neutral-500 focus:ring-primary-500;
+  }
+  
+  .btn-low {
+    @apply bg-low-100 text-low-700 border border-low-300 hover:bg-low-200 focus:ring-low-500 dark:bg-green-900 dark:text-green-100 dark:border-green-700 dark:hover:bg-green-800;
+  }
+  
+  .btn-medium {
+    @apply bg-medium-100 text-medium-700 border border-medium-300 hover:bg-medium-200 focus:ring-medium-500 dark:bg-orange-900 dark:text-orange-100 dark:border-orange-700 dark:hover:bg-orange-800;
+  }
+  
+  .btn-high {
+    @apply bg-high-100 text-high-700 border border-high-300 hover:bg-high-200 focus:ring-high-500 dark:bg-red-900 dark:text-red-100 dark:border-red-700 dark:hover:bg-red-800;
+  }
+  
+  .badge {
+    @apply px-2 py-1 text-xs font-medium rounded-full;
+  }
+  
+  .badge-low {
+    @apply bg-low-100 text-low-700 dark:bg-green-900 dark:text-green-100;
+  }
+  
+  .badge-medium {
+    @apply bg-medium-100 text-medium-700 dark:bg-orange-900 dark:text-orange-100;
+  }
+  
+  .badge-high {
+    @apply bg-high-100 text-high-700 dark:bg-red-900 dark:text-red-100;
+  }
+
+  .input {
+    @apply block w-full px-3 py-2 border border-neutral-300 rounded-md shadow-sm 
+    focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500
+    dark:bg-neutral-700 dark:border-neutral-600 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-1;
+  }
+}
